@@ -1,5 +1,7 @@
 public class Schedule {
     public static void main(String[] args){
+    System.out.println("Giovanni Vitale");
+    System.out.println("116594987");
     System.out.println("Time              Monday          Tuesday          Wednesday          Thursday          Friday ");
     System.out.println("8:00am-8:55am                                      CSE215                                      ");
     System.out.println("9:30am-10:50am                    GEO102                              GEO102                   ");

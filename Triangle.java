@@ -10,7 +10,7 @@ public class Triangle {
         System.out.print("Side3: ");
         double side3 = input.nextDouble();
 
-        if (side1 + side2 < side3 || side2 + side3 < side1 || side1 + side3 < side2){
+        if (side1 + side2 <= side3 || side2 + side3 <= side1 || side1 + side3 <= side2){
             System.out.println("Output: Invalid input!");
         } else if ( side1 == side2  && side2 == side3){
             System.out.println("Output: Equilateral");

@@ -36,12 +36,6 @@ public class Anagram {
                 int j = (str2.charAt(i) - 'a');
                 characterCounter2[j] ++;
         }
-        if (Arrays.equals(characterCounter1, characterCounter2)){
-            return true;
-        }   
-        else{
-            return false;
-        }
-
+        return Arrays.equals(characterCounter1, characterCounter2);
     }
 }

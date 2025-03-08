@@ -5,6 +5,8 @@ public class Palindrome{
         Scanner input = new Scanner(System.in);
         System.out.print("Enter the input string: ");
         String str = input.nextLine();
+        str = str.toLowerCase();
+        str = str.replaceAll("\\s", "");
         System.out.println("Input string " + str + palindrome(str));
         input.close();
         
